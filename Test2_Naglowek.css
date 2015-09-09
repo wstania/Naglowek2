@@ -1,0 +1,81 @@
+.ui.animated.fade.button {
+
+    float:right;
+    margin-right:10%;
+    background-color: white;
+
+}
+
+.grid.container {
+
+
+    background-color: white;
+
+}
+
+.ui.top.visible.sidebar, .ui.bottom.visible.sidebar {
+    box-shadow: none;
+
+}
+
+.ui.text.container:first-child {
+    -webkit-box-shadow:rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
+    -moz-box-shadow:rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
+    background-color: white;
+
+}
+
+.item {
+    letter-spacing: 2px;
+
+}
+
+#logo {
+
+    position: absolute;
+    margin-top: 10px;
+    font-family: 'Calibre-Bold', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+}
+
+.ui.card:first-child {
+    margin-top: 0em;
+    padding-top: 70px;
+}
+
+.ui.card {
+    margin: 0 0 0 0;
+    box-shadow: none;
+    border: none;
+    border-radius: none;
+
+}
+
+.ui.grid .column {
+    padding: none;
+}
+
+
+.ui.fluid.card:hover {
+    transform: scale(0.95);
+    transition: all 0.5s ease;
+
+}
+
+.image {
+opacity: ;
+}
+
+.image:hover:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.1);
+    top: 0;
+    left:0;
+    bac
+}
+

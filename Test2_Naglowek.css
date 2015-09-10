@@ -64,18 +64,36 @@
 
 }
 
-.image {
-opacity: ;
-}
+
 
 .image:hover:after {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     top: 0;
-    left:0;
-    bac
+    left: 0;
+
 }
 
+span.text-content {
+
+    color:black;
+    cursor: pointer;
+    display: table;
+    height: 100%;
+
+    position: absolute;
+    top:70%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.25em;
+    opacity: 0;
+    transition: all 0.5s ease;
+
+}
+
+.image:hover span.text-content {
+    opacity: 1;
+}

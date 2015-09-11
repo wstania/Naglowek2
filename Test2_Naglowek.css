@@ -13,6 +13,7 @@
 
 }
 
+
 .ui.top.visible.sidebar, .ui.bottom.visible.sidebar {
     box-shadow: none;
 
@@ -106,6 +107,12 @@ span.text-content {
 }
 
 
+.ui.inverted.segment {
+
+    margin-top: 50px;
+}
+
+
 @media (min-width:992px) {
     .desktop-only {
         display:block !important;
@@ -119,7 +126,16 @@ span.text-content {
 @media (max-width: 991px) {
     .mobile-only {
         display:block !important;
+
     }
+    .item {
+        font-size: x-small;}
+        .text.container {
+        margin-left: 10px;
+    }
+
+
+
 
     .desktop-only {
         display:none !important;
